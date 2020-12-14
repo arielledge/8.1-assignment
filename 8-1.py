@@ -24,7 +24,7 @@ def main():
         ## Writing the actual file
         writeFile = open(os.path.join(dir,filename),'w')
         ## Write the contents of the file
-        writeFile.write("Name: " name+','"Address: "+address+','"Phone Number: "+phone_number+'\n')
+        writeFile.write(name+',' +address+',' +phone_number+'\n')
         ## Close File
         writeFile.close()
         print("File contents:")
